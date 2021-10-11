@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: 000;
+    font-family: 'Anton', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+ul,li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    padding-bottom: 330px;
+}
+
+.container {
+    width:1170px;
+    margin: 0 auto; 
+}
+
+.header {
+    background: url("img/header-bg.jpg") no-repeat center top / cover;
+    padding-top: 57px;
+}
+
+header a{
+    color: #fff;
+}
+
+.logo{
+    margin-right: 70px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+.menu li{
+    margin-right: 40px;
+}
+.tel{
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: auto;
+    letter-spacing: 0.1em;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.offer{
+    margin: 220px 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+.offer p{
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: 0.1em;
+}
+
+.offer h1{
+    font-size: 100px;
+    line-height: 147px;
+    margin-bottom: 50px;
+}
+
+.btn{
+    text-decoration: none;
+    display: block;
+    font-size: 17px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding: 20px 50px;
+    border: 1px solid #fff;
+    width: 250px;
+}
+
+/* информация about */
+
+section{
+    margin: 115px 0;
+}
+
+.description{
+    display: flex;
+    justify-content: space-between;
+}
+
+h2{
+    font-size: 50px;
+    line-height: 75px;
+    margin-bottom: 60px;
+}
+
+h3{
+    font-size: 25px;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+.description p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400px;
+    text-align: justify;
+    line-height: 1.62em;
+}
+.desc-left,.desc-right{
+    width: 570px;
+}
+.gallery{
+    margin: 70px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text{
+    display: flex;
+    justify-content: space-between;
+    padding: 115px 0;
+}
+.footer-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+}
